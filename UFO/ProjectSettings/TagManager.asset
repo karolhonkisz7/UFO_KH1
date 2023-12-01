@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pickup
+  - Obstacles
+  - UFO
   layers:
   - Default
   - TransparentFX
@@ -50,4 +52,7 @@ TagManager:
     locked: 0
   - name: Ufo
     uniqueID: 1687915385
+    locked: 0
+  - name: Obstacles
+    uniqueID: 2139726971
     locked: 0

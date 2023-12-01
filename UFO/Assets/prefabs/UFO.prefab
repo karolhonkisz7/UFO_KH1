@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8432401921404001413}
   m_Layer: 0
   m_Name: UFO
-  m_TagString: Untagged
+  m_TagString: UFO
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,9 +165,6 @@ MonoBehaviour:
   force: 5
   score: {fileID: 0}
   winText: {fileID: 0}
-  coinSound: {fileID: 8300000, guid: 083b64d73cb55054d94f22e0b6653cb8, type: 3}
-  backgroundAudio: {fileID: 0}
-  bounceSound: {fileID: 8300000, guid: d51210c469f3f0a43be26ea46b651e87, type: 3}
 --- !u!82 &8432401921404001413
 AudioSource:
   m_ObjectHideFlags: 0
