@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3194d7f29e2bfd446a2987c0848e77b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 5
+  force: 15
   score: {fileID: 0}
   winText: {fileID: 0}
 --- !u!82 &8432401921404001413

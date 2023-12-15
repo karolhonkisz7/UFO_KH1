@@ -10,10 +10,16 @@ public class UFOmovement : MonoBehaviour
     public Text score; // Zmieni³em z "text" na "Text"
     public Text winText; // Zmieni³em z "text" na "Text"
     float count = 0;
+    private AudioSource audioSource;
+    private AudioClip coinSound;
+    private AudioClip backgroundAudio;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.PlayOneShot(backgroundAudio);
+        audioSource.loop = true;
     }
 
     void Update()
